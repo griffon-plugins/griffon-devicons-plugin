@@ -1,0 +1,18 @@
+include 'subprojects/griffon-devicons-core'
+include 'subprojects/griffon-devicons-swing'
+include 'subprojects/griffon-devicons-javafx'
+include 'subprojects/griffon-devicons-swing-groovy'
+include 'subprojects/griffon-devicons-javafx-groovy'
+include 'subprojects/griffon-devicons-guide'
+
+rootProject.name = 'griffon-devicons-plugin'
+rootProject.children.each { project ->
+    int slash = project.name.indexOf('/')
+    String fileBaseName = project.name[(slash+1)..-1]
+    String projectDirName = project.name
+    project.name = fileBaseName
+    project.projectDir = new File(settingsDir, projectDirName)
+    project.buildFileName = "${fileBaseName}.gradle"
+    assert project.projectDir.isDirectory()
+    assert project.buildFile.isFile()
+}

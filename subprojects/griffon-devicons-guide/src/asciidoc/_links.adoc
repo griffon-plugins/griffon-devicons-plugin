@@ -1,0 +1,4 @@
+
+:link_devicons: link:http://vorillaz.github.io/devicons/[DevIcons, window="_blank"]
+:api_link_devicons_icon_javafx: link:api/griffon/javafx/support/devicons/DevIcon.html[griffon.javafx.support.devicons.DevIcon, window="_blank"]
+:api_link_devicons_icon_swing: link:api/griffon/swing/support/devicons/DevIcon.html[griffon.swing.support.devicons.DevIcon, window="_blank"]
