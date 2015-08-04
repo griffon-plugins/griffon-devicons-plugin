@@ -41,7 +41,7 @@ import static java.util.Objects.requireNonNull;
  * @author Andres Almiray
  */
 public class DevIcon implements Icon {
-    private static final String DEVICON_SET = "META-INF/resources/devicons/1.7.0/fonts/devicons.ttf";
+    private static final String DEVICON_SET = "META-INF/resources/devicons/1.8.0/fonts/devicons.ttf";
     private static final String ERROR_DEVICON_NULL = "Argument 'devIcon' must not be null";
 
     private static final Font DEVICONFONT;

@@ -33,7 +33,7 @@ import static java.util.Objects.requireNonNull;
  * @author Andres Almiray
  */
 public class DevIcon extends Text {
-    private static final String DEVICON_SET = "META-INF/resources/devicons/1.7.0/fonts/devicons.ttf";
+    private static final String DEVICON_SET = "META-INF/resources/devicons/1.8.0/fonts/devicons.ttf";
     private static final String ERROR_FONT_DEVICON_NULL = "Argument 'devIcon' must not be null";
 
     private static final String DEVICON_FONT_FAMILY;
