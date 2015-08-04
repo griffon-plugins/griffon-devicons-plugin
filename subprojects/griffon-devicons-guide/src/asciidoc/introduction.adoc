@@ -7,7 +7,7 @@ This plugin enables toolkit specific icon support.
 
 Currently supported DevIcons version is `{devicons-version}`.
 
-Devicons Font by Theodore Vorillas (@vorillaz)
+Devicons Font by Theodore Vorillas (@vorillas)
 
 Font License: MIT (http://opensource.org/licenses/mit-license.html)
 

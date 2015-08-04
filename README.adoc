@@ -14,7 +14,7 @@ link:http://vorillaz.github.io/devicons/[DevIcons, window="_blank"] gives you sc
 Refer to the link:http://griffon-plugins.github.io/{project-name}/[plugin guide, window="_blank"] for
 further information on configuration and usage.
 
-Devicons Font by Theodore Vorillas (@vorillaz)
+Devicons Font by Theodore Vorillas (@vorillas)
 
 Font License: MIT (http://opensource.org/licenses/mit-license.html) +
 
