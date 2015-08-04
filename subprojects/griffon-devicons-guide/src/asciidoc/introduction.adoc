@@ -9,4 +9,7 @@ Currently supported DevIcons version is `{devicons-version}`.
 
 Devicons Font by Theodore Vorillas (@vorillaz)
 
-Font License: MIT (http://opensource.org/licenses/mit-license.html) +
+Font License: MIT (http://opensource.org/licenses/mit-license.html)
+
+Griffon version: {griffon-version}
+
