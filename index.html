@@ -22,7 +22,7 @@
 <h1>Griffon Dev Icon Font Plugin</h1>
 <div class="details">
 <span id="author" class="author">Andres Almiray</span><br>
-<span id="revnumber">version 1.0.0</span>
+<span id="revnumber">version 1.1.0</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -66,7 +66,7 @@
 This plugin enables toolkit specific icon support.</p>
 </div>
 <div class="paragraph">
-<p>Currently supported DevIcons version is <code>1.7.0</code>.</p>
+<p>Currently supported DevIcons version is <code>1.8.0</code>.</p>
 </div>
 <div class="paragraph">
 <p>Devicons Font by Theodore Vorillas (@vorillaz)</p>
@@ -85,14 +85,14 @@ This plugin enables toolkit specific icon support.</p>
 <div class="sect2">
 <h3 id="_swing"><a class="anchor" href="#_swing"></a>2.1. Swing</h3>
 <div class="paragraph">
-<p>The <code>griffon-devicons-swing:1.0.0</code> JAR provides a new Icon class: <code><a href="api/griffon/swing/support/devicons/DevIcon.html" target="_blank">griffon.swing.support.devicons.DevIcon</a></code>.
+<p>The <code>griffon-devicons-swing:1.1.0</code> JAR provides a new Icon class: <code><a href="api/griffon/swing/support/devicons/DevIcon.html" target="_blank">griffon.swing.support.devicons.DevIcon</a></code>.
 You may use this class with any Swing component that supports an Icon property.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_javafx"><a class="anchor" href="#_javafx"></a>2.2. JavaFX</h3>
 <div class="paragraph">
-<p>The <code>griffon-devicons-javafx:1.0.0</code> JAR provides a new Node class: <code><a href="api/griffon/javafx/support/devicons/DevIcon.html" target="_blank">griffon.javafx.support.devicons.DevIcon</a></code>.
+<p>The <code>griffon-devicons-javafx:1.1.0</code> JAR provides a new Node class: <code><a href="api/griffon/javafx/support/devicons/DevIcon.html" target="_blank">griffon.javafx.support.devicons.DevIcon</a></code>.
 You may use this class with any JavaFX control that accepts a graphic property. You may also use the icon directly as
 it is a subclass of <code>javafx.scene.control.Label</code>. The icon class can be used inside an FXML file too.</p>
 </div>
@@ -179,7 +179,7 @@ may include the following snippet in build.gradle</p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight nowrap"><code data-lang="groovy">dependencies {
-    griffon 'org.codehaus.griffon.plugins:griffon-devicons-plugin:1.0.0'
+    griffon 'org.codehaus.griffon.plugins:griffon-devicons-plugin:1.1.0'
 }</code></pre>
 </div>
 </div>
@@ -196,7 +196,7 @@ may include the following snippet in build.gradle</p>
 <div class="title">Java + Swing</div>
 <div class="content">
 <pre class="CodeRay highlight nowrap"><code data-lang="groovy">dependencies {
-    compile 'org.codehaus.griffon.plugins:griffon-devicons-swing:1.0.0'
+    compile 'org.codehaus.griffon.plugins:griffon-devicons-swing:1.1.0'
 }</code></pre>
 </div>
 </div>
@@ -204,7 +204,7 @@ may include the following snippet in build.gradle</p>
 <div class="title">Java + JavaFX</div>
 <div class="content">
 <pre class="CodeRay highlight nowrap"><code data-lang="groovy">dependencies {
-    compile 'org.codehaus.griffon.plugins:griffon-devicons-javafx:1.0.0'
+    compile 'org.codehaus.griffon.plugins:griffon-devicons-javafx:1.1.0'
 }</code></pre>
 </div>
 </div>
@@ -212,7 +212,7 @@ may include the following snippet in build.gradle</p>
 <div class="title">Groovy + Swing</div>
 <div class="content">
 <pre class="CodeRay highlight nowrap"><code data-lang="groovy">dependencies {
-    compile 'org.codehaus.griffon.plugins:griffon-devicons-swing-groovy:1.0.0'
+    compile 'org.codehaus.griffon.plugins:griffon-devicons-swing-groovy:1.1.0'
 }</code></pre>
 </div>
 </div>
@@ -220,7 +220,7 @@ may include the following snippet in build.gradle</p>
 <div class="title">Groovy + JavaFX</div>
 <div class="content">
 <pre class="CodeRay highlight nowrap"><code data-lang="groovy">dependencies {
-    compile 'org.codehaus.griffon.plugins:griffon-devicons-javafx-groovy:1.0.0'
+    compile 'org.codehaus.griffon.plugins:griffon-devicons-javafx-groovy:1.1.0'
 }</code></pre>
 </div>
 </div>
@@ -239,7 +239,7 @@ snippet before the <code>&lt;build&gt;</code> element</p>
         <span class="tag">&lt;dependency&gt;</span>
             <span class="tag">&lt;groupId&gt;</span>org.codehaus.griffon.plugins<span class="tag">&lt;/groupId&gt;</span>
             <span class="tag">&lt;artifactId&gt;</span>griffon-devicons-plugin<span class="tag">&lt;/artifactId&gt;</span>
-            <span class="tag">&lt;version&gt;</span>1.0.0<span class="tag">&lt;/version&gt;</span>
+            <span class="tag">&lt;version&gt;</span>1.1.0<span class="tag">&lt;/version&gt;</span>
             <span class="tag">&lt;type&gt;</span>pom<span class="tag">&lt;/type&gt;</span>
             <span class="tag">&lt;scope&gt;</span>import<span class="tag">&lt;/scope&gt;</span>
         <span class="tag">&lt;/dependency&gt;</span>
@@ -415,6 +415,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-angular"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">APPCELERATOR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">appcelerator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-appcelerator"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">APPLE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">apple</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-apple"></span></p></td>
@@ -430,6 +435,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-aptana"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ASTERISK</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">asterisk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-asterisk"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ATLASSIAN</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">atlassian</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-atlassian"></span></p></td>
@@ -438,6 +448,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ATOM</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">atom</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-atom"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AWS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">aws</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-aws"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">BACKBONE</p></td>
@@ -605,9 +620,24 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-debian"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DIGITAL_OCEAN</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">digital-ocean</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-digital-ocean"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">DJANGO</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">django</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-django"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DLANG</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dlang</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-dlang"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DOCKER</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">docker</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-docker"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">DOCTRINE</p></td>
@@ -653,6 +683,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ENVATO</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">envato</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-envato"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ERLANG</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">erlang</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-erlang"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">EXTJS</p></td>
@@ -750,9 +785,19 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-google_analytics"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GOOGLE_CLOUD_PLATFORM</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">google-cloud-platform</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-google-cloud-platform"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">GOOGLE_DRIVE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">google_drive</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-google_drive"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GRAILS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">grails</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-grails"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">GROOVY</p></td>
@@ -813,6 +858,16 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">IE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ie</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-ie"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ILLUSTRATOR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">illustrator</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-illustrator"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">INTELLIJ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">intellij</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-intellij"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">IONIC</p></td>
@@ -915,6 +970,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-markdown"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">MATERIALIZECSS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">materializecss</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-materializecss"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">METEOR</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">meteor</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-meteor"></span></p></td>
@@ -1005,6 +1065,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-onedrive"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OPENSHIFT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">openshift</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-openshift"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">OPENSOURCE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">opensource</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-opensource"></span></p></td>
@@ -1023,6 +1088,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">PHONEGAP</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">phonegap</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-phonegap"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PHOTOSHOP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">photoshop</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-photoshop"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">PHP</p></td>
@@ -1045,6 +1115,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-python"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RACKSPACE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">rackspace</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-rackspace"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">RAPHAEL</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">raphael</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-raphael"></span></p></td>
@@ -1053,6 +1128,16 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">RASPBERRY_PI</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">raspberry_pi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-raspberry_pi"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">REACT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">react</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-react"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">REDHAT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">redhat</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-redhat"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">REDIS</p></td>
@@ -1105,6 +1190,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-scala"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SCRIPTCS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">scriptcs</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-scriptcs"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">SCRUM</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">scrum</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-scrum"></span></p></td>
@@ -1128,6 +1218,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">SNAP_SVG</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">snap_svg</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-snap_svg"></span></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SQLLITE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sqllite</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-sqllite"></span></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">STACKOVERFLOW</p></td>
@@ -1205,6 +1300,11 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-unity_small"></span></p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VIM</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vim</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-vim"></span></p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">VISUALSTUDIO</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">visualstudio</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><span class="devicons devicons-visualstudio"></span></p></td>
@@ -1261,7 +1361,7 @@ binding if the wrong type has been applied by the Griffon runtime.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0.0<br>
+Version 1.1.0<br>
 Last updated 2015-08-04 15:46:16 CEST
 </div>
 </div>
